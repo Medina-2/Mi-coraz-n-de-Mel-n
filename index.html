@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disculpame Corazón de Melón</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="intro-screen" class="screen show">
+        <!-- Polaroid Collage spread across screen -->
+        <div class="collage">
+            <div class="polaroid p1">
+                <img src="assets/Gemini_Generated_Image_3tu2p13tu2p13tu2.png" alt="Nosotros">
+                <span>nosotros 🤍</span>
+            </div>
+            <div class="polaroid p2">
+                <img src="assets/Gemini_Generated_Image_3x9nft3x9nft3x9n.png" alt="Nosotros">
+                <span>siempre 💫</span>
+            </div>
+            <div class="polaroid p3">
+                <img src="assets/Gemini_Generated_Image_7c2prs7c2prs7c2p.png" alt="Nosotros">
+                <span>juntos ❤️</span>
+            </div>
+            <div class="polaroid p4">
+                <img src="assets/Gemini_Generated_Image_bcr0akbcr0akbcr0.png" alt="Nosotros">
+                <span>tú y yo 🥹</span>
+            </div>
+            <div class="polaroid p5">
+                <img src="assets/Gemini_Generated_Image_buye0ubuye0ubuye.png" alt="Nosotros">
+                <span>mi todo 🌹</span>
+            </div>
+            <div class="polaroid p6">
+                <img src="assets/Gemini_Generated_Image_wqh2pqwqh2pqwqh2.png" alt="Nosotros">
+                <span>para siempre 💙</span>
+            </div>
+        </div>
+
+        <!-- Center overlay content -->
+        <div class="intro-content">
+            <h1>Para ti Corazón de Melón...</h1>
+            <button id="click-me">haz click</button>
+        </div>
+        <div class="intro-decorations" id="intro-flowers"></div>
+    </div>
+
+    <div id="main-screen" class="screen hidden">
+        <canvas id="petals-canvas"></canvas>
+        <div class="content_revealed">
+            <div class="image-container">
+                <img src="assets/alfredo.png" alt="Alfredo Olivas" id="alfredo-img">
+            </div>
+            <div class="text-container">
+                <h2 class="apology-text">ME DISCULPAS CORAZÓN DE MELÓN..???</h2>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -250,3 +250,66 @@ h1 {
         0 0 80px rgba(179,29,34,0.9),
         0 0 140px rgba(0,0,0,0.7); }
 }
+
+/* ── RESPONSIVE DESIGN FOR PHONES (IPHONE & ANDROID) ── */
+@media (max-width: 768px) {
+    /* Intro Screen Adjustments */
+    .intro-content {
+        padding: 1.5rem 1rem;
+        width: 90%;
+    }
+    
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    #click-me {
+        padding: 0.9rem 2.5rem;
+        font-size: 1.1rem;
+    }
+    
+    /* Make polaroids much smaller on phone */
+    .polaroid {
+        width: 95px;
+        padding: 5px 5px 20px 5px;
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
+    }
+    
+    .polaroid img {
+        height: 80px;
+    }
+    
+    .polaroid span {
+        font-size: 0.5rem;
+        margin-top: 3px;
+    }
+    
+    /* Rearrange polaroids for small screens so they don't cover the button */
+    .p1 { top: 5%; left: -2%; }
+    .p2 { top: 2%; left: calc(50% - 47px); }
+    .p3 { top: 5%; right: -2%; }
+    .p4 { bottom: 15%; left: 0%; }
+    .p5 { bottom: 12%; right: 0%; }
+    .p6 { bottom: 8%; left: calc(50% - 47px); }
+
+    /* Main Screen Adjustments */
+    #alfredo-img {
+        max-width: 250px;
+    }
+
+    .apology-text {
+        font-size: 1.8rem;
+        letter-spacing: 2px;
+        padding: 0 1rem;
+    }
+    
+    .content_revealed {
+        gap: 1.5rem;
+    }
+    
+    .content_revealed::before {
+        font-size: 1rem;
+        letter-spacing: 4px;
+    }
+}
